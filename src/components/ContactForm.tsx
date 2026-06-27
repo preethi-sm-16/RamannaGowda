@@ -66,11 +66,11 @@ export default function ContactForm() {
           <div className={styles.infoCol}>
             <div className={styles.profileBox}>
               <div className={styles.portraitWrapper}>
-                <Image 
-                  src="/executive_portrait.png" 
-                  alt="G K Ramana Gouda Portrait" 
-                  width={150} 
-                  height={180} 
+                <Image
+                  src="/executive_portrait.png"
+                  alt="G K Ramana Gouda Portrait"
+                  width={150}
+                  height={180}
                   className={styles.portrait}
                 />
               </div>
@@ -79,7 +79,7 @@ export default function ContactForm() {
                 <p className={styles.infoSub}>Integrated Steel Plant Operations Leader | Plant Head</p>
               </div>
             </div>
-            
+
             <div className={styles.infoList}>
               <div className={styles.infoItem}>
                 <div className={styles.iconBox}>
@@ -114,13 +114,13 @@ export default function ContactForm() {
               <div className={styles.infoItem}>
                 <div className={styles.iconBox}>
                   <svg fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                   </svg>
                 </div>
                 <div className={styles.itemDetails}>
                   <span className={styles.itemLabel}>LinkedIn Profile</span>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.itemValue}>
-                    linkedin.com/in/g-k-ramana-gouda
+                  <a href="https://linkedin.com/in/g-k-ramana-gouda-46a23014a" target="_blank" rel="noopener noreferrer" className={styles.itemValue}>
+                    G K Ramana Gouda
                   </a>
                 </div>
               </div>
@@ -203,14 +203,14 @@ export default function ContactForm() {
                 </p>
 
                 <div className={styles.successActionBox}>
-                  <a 
-                    href={whatsappUrl} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={styles.whatsappBtn}
                   >
                     <svg fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.333 4.982L2 22l5.202-1.362a9.92 9.92 0 004.808 1.242h.005c5.505 0 9.99-4.478 9.99-9.986A9.97 9.97 0 0012.012 2zm5.834 14.154c-.252.712-1.46 1.304-2.003 1.385-.494.074-.988.136-3.238-.795-2.877-1.19-4.707-4.108-4.851-4.3a5.06 5.06 0 01-1.03-2.713c0-1.895.99-2.827 1.344-3.19.252-.258.649-.37.104.03.395.002.593.003.74.004.148.001.346-.056.544.423.197.48.69 1.688.75 1.808.06.12.1.258.02.42-.08.16-.12.258-.24.4-.12.14-.252.316-.36.425-.12.12-.244.25-.104.49.14.24.62.992 1.33 1.624.912.812 1.68 1.062 1.916 1.18.236.12.375.1.515-.06.14-.16.593-.688.75-.92.158-.23.317-.2.535-.12.217.08 1.38.65 1.616.77.237.12.395.18.455.28.06.1.06.58-.192 1.294z"/>
+                      <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.333 4.982L2 22l5.202-1.362a9.92 9.92 0 004.808 1.242h.005c5.505 0 9.99-4.478 9.99-9.986A9.97 9.97 0 0012.012 2zm5.834 14.154c-.252.712-1.46 1.304-2.003 1.385-.494.074-.988.136-3.238-.795-2.877-1.19-4.707-4.108-4.851-4.3a5.06 5.06 0 01-1.03-2.713c0-1.895.99-2.827 1.344-3.19.252-.258.649-.37.104.03.395.002.593.003.74.004.148.001.346-.056.544.423.197.48.69 1.688.75 1.808.06.12.1.258.02.42-.08.16-.12.258-.24.4-.12.14-.252.316-.36.425-.12.12-.244.25-.104.49.14.24.62.992 1.33 1.624.912.812 1.68 1.062 1.916 1.18.236.12.375.1.515-.06.14-.16.593-.688.75-.92.158-.23.317-.2.535-.12.217.08 1.38.65 1.616.77.237.12.395.18.455.28.06.1.06.58-.192 1.294z" />
                     </svg>
                     Dispatch via WhatsApp
                   </a>

@@ -270,3 +270,15 @@
     display: none;
   }
 }
+
+/* Ensure Hero fits exactly in one screen on desktop viewports */
+@media (min-width: 993px) {
+  .heroSection {
+    height: 100vh;
+    min-height: 720px;
+    display: flex;
+    align-items: center;
+    padding-top: 80px; /* Offset the 80px fixed header */
+    padding-bottom: 0;
+  }
+}
